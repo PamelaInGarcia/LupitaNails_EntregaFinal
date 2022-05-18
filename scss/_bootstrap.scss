@@ -1,0 +1,49 @@
+//TABAJANDO SOBRE SHOP:
+
+//COLORES
+.bg-gradi {
+    background-color: $gradi;
+}
+#precio {
+    background-color: pink;
+    
+}
+
+.letras {
+    color: white;
+}
+.letras2 {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 35px;
+    word-spacing: 150px;
+    
+}
+#menuL{
+    color: $colormenu;
+    font-size: 175%;
+}
+//MODIFICACIONES EN CARDS
+#bg-c {
+    background-color: #bb695b;
+    width: auto;
+    height: 450px;
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+}
+
+//TAMAÑOS IMGS
+.img {
+    width: 250px;
+}
+
+.img-2 {
+    width: 350px;
+    margin-bottom: 70px;
+}
+
+

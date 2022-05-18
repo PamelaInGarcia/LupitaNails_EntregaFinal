@@ -1,0 +1,67 @@
+//Map get para fuentes
+$letterstyles: (
+    fz1: 50px,
+    fz2: 35px,
+    fz3: 25px,
+    fz4: 20px,
+    fStyle: italic,
+    justCont: space-evenly,
+);
+
+.titulo{
+    display: $flex;
+    justify-content: $center;
+    font-size: map-get($letterstyles, fz1);
+    font-style: map-get($letterstyles, fStyle );
+    text-align: $center;
+    margin-bottom: 5px;
+    color: $colortit;
+    text-decoration: $colorline;
+}
+
+.menu{
+    display: $flex;
+    list-style-type: none;
+    font-size: map-get($letterstyles, fz2 );
+    margin-top: 2px;
+}
+
+
+ul{
+    display: $flex;
+    justify-content:map-get($letterstyles, justCont ); 
+    text-decoration:none;
+}
+
+.contenedorFooter{
+    display: $flex;
+    justify-content:map-get($letterstyles, justCont ); 
+    margin-top: 0%;
+}
+
+.copyright{
+    text-align: $center;
+    font-size: map-get($letterstyles, fz4 );
+}
+
+.formul{
+    text-align: $center;
+    font-size: map-get($letterstyles, fz4 );
+    
+    
+}
+#comentario{
+    width: 31%;
+    margin: 0px;
+    font-size: map-get($letterstyles, fz3 );
+    background-color: $bgForm;
+}
+
+.entrada_texto{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: map-get($letterstyles, fz4 );
+    height: 100%;
+    width: 15%;
+    background-color: $bgForm;
+}

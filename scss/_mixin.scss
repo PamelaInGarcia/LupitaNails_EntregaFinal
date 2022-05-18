@@ -1,0 +1,47 @@
+//TAMAÑOS IMGS TODAS LAS PAGES
+@mixin width ($ancho) {
+    width: $ancho;
+}
+.imagenInicio{
+    @include width(100%);
+    text-align: $center;
+}
+
+.tamañoImg{
+    @include width(100%);
+    text-align: $center;
+}
+
+.mapa{
+    @include width(100%);
+    height: auto;
+    text-align: $center;
+}
+
+@mixin diam ($height)
+{
+    height: $height;
+}
+.diam{
+    width: auto;
+    @include diam(45px);
+}
+
+@mixin img1-1 ($img){
+    width: $img;
+}
+.img1-1{
+    @include img1-1(350px);
+    height: auto;
+}
+@mixin formu ($formu) {
+    width: $formu;
+}
+.formulario{
+    @include formu(1000px);
+    height: auto;
+    margin-top: 70px;
+}
+
+
+
